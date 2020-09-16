@@ -24,7 +24,7 @@ class VehicleService
         $this->fuel = $fuel;
         $this->insurance = $insurance;
         $this->service = $service;
-        $this->types = ['fuel', 'insurance', 'service'];
+        $this->types = [ExpenseService::TYPE_FUEL, ExpenseService::TYPE_INSURANCE, ExpenseService::TYPE_SERVICE];
         $this->sort = [
             'value' => 'cost',
             'direction' => 'asc'
@@ -36,7 +36,7 @@ class VehicleService
     protected function initParams($request){
         $this->params = $request->validate([
             'name' => ['required', 'string'],
-            'types' => new MultipleValue(['fuel', 'insurance', 'service']),
+            'types' => new MultipleValue($this->types),
             'minCost' => ['numeric'],
             'maxCost' => ['numeric'],
             'minDate' => ['date'],
@@ -113,8 +113,7 @@ class VehicleService
         $first = array_shift($this->types);
         $this->query = clone ($this->$first->getQuery());
         foreach ($this->types as $service){
-            $query = $this->$service->getQuery();
-            $this->query->unionAll($query);
+            $this->query->unionAll($this->$service->getQuery());
         }
     }
 
@@ -136,7 +135,7 @@ class VehicleService
         $this->sort();
     }
 
-    public function getData()
+    public function getExpenses()
     {
         $this->execute();
 //        return $this->query->count();

@@ -7,6 +7,10 @@ use Illuminate\Support\Facades\DB;
 abstract class ExpenseService
 {
 
+    const TYPE_FUEL = 'fuel';
+    const TYPE_INSURANCE = 'insurance';
+    const TYPE_SERVICE = 'service';
+
     protected $query;
     protected $type;
     protected $table;
