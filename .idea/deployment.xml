@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Shezlong_sprint">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="crawler">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="crossworkers">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="homescrawl">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="http://localhost:8000">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="internsvalleyTask">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="modulus">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="modulus (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="scales">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="shezlong">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="shezlong_dashboard">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="shezlong_dev">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="shezlongci">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sprint19">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../trivago" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
