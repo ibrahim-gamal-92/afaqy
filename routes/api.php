@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::namespace('API\V1')->prefix('v1')->group(function (){
+Route::namespace('API\V1')->prefix('v1')->middleware('throttle:5,1')->group(function (){
     Route::get('/expenses','VehicleController@index');
 });
